@@ -4,11 +4,11 @@
 
 \## Description
 
+
+
 EncryptionToolV1 is a Java console application that encrypts and decrypts messages using a \*\*Caesar Cipher\*\*.  
 
-It tracks history, provides summaries, and includes a demo mode for quick testing and also clears history.
-
-
+It keeps a \*\*history of operations\*\*, provides \*\*summary counts\*\*, includes a \*\*demo mode\*\*, and also clearing history.
 
 
 
@@ -20,9 +20,9 @@ It tracks history, provides summaries, and includes a demo mode for quick testin
 
 \- Demo mode for quick testing
 
-\- View history of all operations
+\- View history of all encryption/decryption operations
 
-\- View summary of total encryptions and decryptions
+\- View summary (total messages encrypted/decrypted)
 
 \- Clear history
 
@@ -38,19 +38,19 @@ It tracks history, provides summaries, and includes a demo mode for quick testin
 
 ```bash
 
-\# Step 1: Navigate to the project folder
+Step1:Navigate to the project folder
 
 cd EncryptionToolV1/src
 
 
 
-\# Step 2: Compile the Java file
+Step2:Compile the Java file
 
 javac EncryptionToolV1.java
 
 
 
-\# Step 3: Run the program
+Step3:Run the program
 
 java EncryptionToolV1
 
@@ -60,23 +60,15 @@ java EncryptionToolV1
 
 
 
-\##Technologies Used
-
--Java
-
--Caesar Cipher Algorithm
+\## Sample Usage
 
 
 
-
-
-\##Sample Usage
+\*\*Encrypt / Decrypt Example:\*\*
 
 
 
--Encrypt / Decrypt Example:
-
-
+```
 
 Enter message to encrypt: HelloWorld
 
@@ -92,11 +84,15 @@ Enter key: 3
 
 Decrypted Message: HelloWorld
 
+```
 
 
--Demo Mode Example:
+
+\*\*Demo Mode Example:\*\*
 
 
+
+```
 
 Original: Srushti 123
 
@@ -104,11 +100,15 @@ Encrypted (key=3): Vuxvkwl 456
 
 Decrypted: Srushti 123
 
+```
 
 
--History Example:
+
+\*\*History Example:\*\*
 
 
+
+```
 
 History:
 
@@ -116,17 +116,35 @@ Encrypted: HelloWorld -> KhoorZruog
 
 Decrypted: KhoorZruog -> HelloWorld
 
+```
 
 
 
+\*\*Summary Example:\*\*
 
--Summary Example:
 
 
+```
 
 Messages Encrypted: 1
 
 Messages Decrypted: 1
+
+```
+
+
+
+---
+
+
+
+\## Technologies Used
+
+
+
+\* Java
+
+\* Caesar Cipher Algorithm
 
 
 
