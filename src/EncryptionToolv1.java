@@ -17,7 +17,8 @@ public class EncryptionToolv1 {
             System.out.println("3. Try Sample Demo");
             System.out.println("4. Show History");
             System.out.println("5. Show Summary");
-            System.out.println("6. Exit");
+            System.out.println("6. Clear History");
+            System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
             sc.nextLine(); // consume newline
