@@ -21,7 +21,7 @@ public class EncryptionToolv1 {
             System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -54,7 +54,7 @@ public class EncryptionToolv1 {
         sc.close();
     }
 
-    // ---------- Feature Functions ----------
+    
     private static void encryptMessage(Scanner sc) {
         System.out.print("Enter message to encrypt: ");
         String message = sc.nextLine();
@@ -117,7 +117,7 @@ public class EncryptionToolv1 {
         System.out.println("History Cleared Successfully");
     }
 
-    // ---------- Caesar Cipher Algorithm ----------
+    
     private static String caesarCipher(String text, int shift) {
         StringBuilder result = new StringBuilder();
         for (char c : text.toCharArray()) {
